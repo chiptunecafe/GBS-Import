@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Netherlands) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ABOUTBOX DIALOG  32, 32, 180, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,80,50,14
+    ICON            "ABOUT1",IDC_STATIC,7,7,21,20
+    CTEXT           "About1",IDC_STATIC,40,12,100,8
+    CTEXT           "About Box Demo Program",IDC_STATIC,7,40,166,8
+    CTEXT           "(c) Charles Petzold, 1998",IDC_STATIC,7,52,166,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,159,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,259,159,50,14
+    LTEXT           "Static",IDC_STATIC,24,47,136,35
+END
+
+IDD_DIALOG_NSF_IMPORT DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GBS Import v0.1"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Import",IDOK,205,162,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,259,162,50,14
+    LTEXT           "Filename",IDC_FILENAME,7,7,302,14,0,WS_EX_CLIENTEDGE
+    LTEXT           "Name",IDC_NSFINFO1,76,26,233,14,0,WS_EX_CLIENTEDGE
+    LTEXT           "Composer",IDC_NSFINFO2,76,44,233,14,0,WS_EX_CLIENTEDGE
+    LTEXT           "Copyright",IDC_NSFINFO3,76,63,233,14,0,WS_EX_CLIENTEDGE
+    RTEXT           "Name:",IDC_STATIC,7,27,66,14
+    RTEXT           "Copyright:",IDC_STATIC,7,64,66,14
+    RTEXT           "Composer:",IDC_STATIC,7,45,66,14
+    EDITTEXT        IDC_TRACK,76,80,55,16,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "1",IDC_TRACKCOUNT,149,80,55,16,0,WS_EX_CLIENTEDGE
+    CTEXT           "/",IDC_STATIC,133,81,14,14
+    RTEXT           "Track:",IDC_STATIC,7,82,66,15
+    EDITTEXT        IDC_SECONDS,76,100,55,16,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "seconds",IDC_STATIC,136,102,77,14
+    RTEXT           "Record time:",IDC_STATIC,7,101,66,13
+    CONTROL         "Import all tracks",IDC_ALLTRACKS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,80,97,13
+    CONTROL         "Remove silence at end",IDC_NOSILENCE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,100,97,13
+    CONTROL         "Progress",IDC_PROGRESSINFO,"msctls_progress32",WS_BORDER,205,147,104,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ABOUT1 MENU 
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About About1...",            IDM_APP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Dutch (Netherlands) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
